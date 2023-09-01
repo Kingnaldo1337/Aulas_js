@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Iniciando Dom</h1>
+    <p>Agora vai meu bom</p>
+    <p>aprendendo a usar <strong>DOM</strong> em javascript</p> <!--o strong deixa em negrito-->
+    <div id="msg">Clique aqui</div>
+
+    <script>
+        var corpo = window.document.body 
+        //var p1 = window.document.getElementsByTagName('p')[1] // puxa um elemento pela tag
+        //window.document.write(p1.innerHTML) // innertext pega o texto sem formatação, o innerhtml pega com formatação
+        corpo.style.background = 'black'
+        //p1.style.color = 'blue'
+        var d = window.document.querySelector('div#msg') //div é representada por uma #, já uma classe por um .
+        //var d = window.document.querySelector('div.msg') exemplo caso fosse pegar por uma class
+        d.style.color = "red"
+        d.innerText = "esperando..."
+        
+        
+        
+    </script>
+    
+</body>
+</html>
