@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(124, 124, 214);
+}
+
+h1{
+    font: normal 40px Arial;
+    color: white;
+    text-align: center;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font: normal 15px Arial;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: ;
+    
+
+}
+
+
+section1{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
