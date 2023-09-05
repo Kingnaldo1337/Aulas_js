@@ -6,12 +6,22 @@
     <title>Página do dia</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="carregar()">
     
-    <h1 >Mudança de hora</h1>
-    <section id="section1"></section>
-    <img src="images/mais-um-dia-de-sol-e-temperatura-elevada-em-sc-1595502961.jpg"/>
-    <footer>Reinaldo Alves</footer>
+    <header>
+        <h1>Mudança de horário</h1>
+    </header>
+    <section id="section1">
+        <div id="msg">
+            imagem de dia
+        </div>
+        <div id="foto">
+            <img id="imagem" src="images/mais-um-dia-de-sol-e-temperatura-elevada-em-sc-1595502961.jpg" alt="Imagem de dia" >
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Reinaldo Alves</p>
+    </footer>
 
     <script src="script.js"></script>
     

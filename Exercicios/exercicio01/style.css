@@ -2,8 +2,8 @@ body{
     background-color: rgb(124, 124, 214);
 }
 
-h1{
-    font: normal 40px Arial;
+header{
+    font: normal 30px Arial;
     color: white;
     text-align: center;
     
@@ -15,20 +15,25 @@ footer{
     font: normal 15px Arial;
 }
 
-img{
-    width: 150px;
-    height: 150px;
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+#imagem{
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin: ;
-    
+    margin:auto;
 
 }
 
 
-section1{
-    background-color: red;
-    width: 400px;
-    height: 400px;
-    margin: 50px auto;
+#section1{
+    background-color:   white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
 }
