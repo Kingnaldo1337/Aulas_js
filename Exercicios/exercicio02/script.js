@@ -6,12 +6,14 @@ function verificar(){
     if(fano.value.length == 0 || fano.value > ano){
         window.alert("Verifique seus dados e tente novamente.")
     }else{
-        var fsex = document.querySelectorAll('input[type ="radio"')
+        //var fsex = document.querySelectorAll('input[type ="radio"') <<-- Achei essa forma incorreta, pois se tiver mais de um radio na mesma página web, iria selecionar todos os radios
+        var msex = document.getElementById('mas')
+        var fsex = document.getElementById('fem')
         var idade = ano - Number(fano.value)
         var genero = ''
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
-        if (fsex[0].checked){
+        if (msex.checked){
             genero = "Homem"
             if(idade >=0 && idade <=5){
                 img.setAttribute('src','images/criança_homem.webp' )
