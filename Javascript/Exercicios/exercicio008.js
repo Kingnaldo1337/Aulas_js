@@ -1,9 +1,4 @@
-var sexo = "Masculino"
-
-console.log(`Seu sexo é ${sexo}`)
-
-if (sexo == "Masculino"){
-    console.log("Você é macho")
-}   else{
-    console.log("Você é Mulher")
-}
+let num = [4,1,3,5,7]
+num.push(9)
+num.sort()
+console.log(`o vetor tem ${num.length} posições `)
