@@ -1,8 +1,9 @@
-var vel = 60.5
-console.log(`a velocidade do seu carro é ${vel}km/h`)
-
-if (vel > 80) { //condição simples
-    console.log('Você ultrapassou a velocidade permitida, MULTADO!')
-}else{
-    console.log("Tenha um bom dia! Dirija com segurança!")
+function parimp(n){
+    if(n%2==0){
+        return 'par'
+    }else{
+        return "ímpar"
+    }
 }
+let res = parimp(4)
+console.log(`o numero é ${res}`)
