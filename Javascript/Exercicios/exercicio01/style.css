@@ -1,39 +1,31 @@
 body{
-    background-color: rgb(124, 124, 214);
+    background-color: aquamarine;
 }
-
 header{
-    font: normal 30px Arial;
-    color: white;
+    font: normal 20px Arial;
     text-align: center;
-    
+    color: black;
 }
-
-footer{
-    color: white;
-    text-align: center;
-    font: normal 15px Arial;
-}
-
-div{
-    text-align: center;
-    padding: 8px;
-}
-
-#imagem{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin:auto;
-
-}
-
-
-#section1{
-    background-color:   white;
-    padding: 15px;
+section{
+    font: normal 20px Arial;
     width: 500px;
+    background-color: rgb(128, 128, 209);
+    border-radius: 15px;
     margin: auto;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(95, 94, 94);
+}
+footer{
+    font: normal 15px Arial;
+    text-align: center ;
+    color: black;
+}
+#imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(95, 94, 94);
+}
+#msg{
+    font: bold italic 40px arial, sans-serif;
 }
